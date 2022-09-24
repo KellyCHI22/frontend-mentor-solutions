@@ -32,10 +32,10 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [My Github homepage](https://github.com/KellyCHI22)
+- Frontend Mentor - [@Hsin-tingCHI](https://www.frontendmentor.io/profile/Hsin-tingCHI)
 
 
 ## Acknowledgments
 
-
+Thank you Frontend Mentor for providing the challenge!
