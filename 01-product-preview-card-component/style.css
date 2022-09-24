@@ -73,7 +73,6 @@ body {
 }
 
 .price--original {
-    /* 排版待處理 */
     margin-left: 15px;
     text-decoration: line-through;
     font-size: 12px;
