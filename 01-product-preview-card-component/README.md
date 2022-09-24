@@ -13,13 +13,14 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot_1.jpg)
+
 ![](./screenshot_2.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/01-product-preview-card-component)
+- Live Site URL: [Product preview card component](https://kellychi22.github.io/frontend-mentor-solutions//01-product-preview-card-component/)
 
 ## My process
 
