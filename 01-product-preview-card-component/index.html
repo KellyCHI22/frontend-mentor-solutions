@@ -15,7 +15,11 @@
 
 <body>
   <main class="card">
-    <div class="card__img"></div>
+    <picture class="card__img__container">
+      <source media="(min-width:600px)" srcset="images/image-product-desktop.jpg">
+      <source media="(min-width:0px)" srcset="images/image-product-mobile.jpg">
+      <img class="card__img" src="" alt="product image Gabrielle Essence Eau De Parfum">
+    </picture>
     <div class="card__content">
       <span class="item-tag">Perfume</span>
       <h1 class="item-name">Gabrielle Essence Eau De Parfum</h1>
@@ -23,23 +27,21 @@
         Perfumer-Creator for the House of CHANEL.</p>
       <div class="item-price">
         <span class="price--discount">$149.99</span>
-        <span class="price--original">$169.99</span>
+        <span class="price--original sr-only">$169.99</span>
       </div>
       <button class="cta-btn">
-        <p>
-          <img class="cta-icon" src="images/icon-cart.svg" alt="cart icon">
-          <span>Add to Cart</span>
-        </p>
+        <img class="cta-icon" src="images/icon-cart.svg" alt="cart icon">
+        <span>Add to Cart</span>
       </button>
     </div>
   </main>
 
 
 
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Kelly CHI</a>.
-  </div>
+  </footer>
 </body>
 
 </html>

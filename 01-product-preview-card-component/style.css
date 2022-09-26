@@ -13,7 +13,7 @@ body {
     margin: 0;
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
+    font-size: .8rem;
     color: hsl(228, 12%, 48%);
     background-color: hsl(30, 38%, 92%);
 }
@@ -21,44 +21,48 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 550px;
+    width: 20rem;
+    height: auto;
     margin: 0 auto;
     border-radius: 10px;
     background-color: #fff;
     overflow: hidden;
 }
 
+.card__img__container {
+    height: 45%;
+    width: auto;
+}
+
 .card__img {
-    height: 40%;
-    background-image: url("images/image-product-mobile.jpg");
-    background-size: cover;
-    background-position: center;
+    width: 100%;
 }
 
 .card__content {
-    height: 60%;
-    padding: 20px;
+    height: 55%;
+    padding: 1.75rem;
+    padding-top: 1.25rem;
 }
 
 .item-tag {
-    font-size: 11px;
+    font-size: .7rem;
     font-weight: lighter;
     text-transform: uppercase;
-    letter-spacing: 3.5px;
+    letter-spacing: .35em;
 }
 
 .item-name {
-    margin-top: 10px;
+    margin-top: .3em;
+    margin-bottom: .5em;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
-    font-size: 2.2em;
-    line-height: 30px;
+    font-size: 1.85rem;
+    line-height: 1.15em;
 }
 
 .item-desc {
     opacity: .8;
-    line-height: 20px;
+    line-height: 1.5em;
 }
 
 .item-price {
@@ -69,20 +73,23 @@ body {
 .price--discount {
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .price--original {
-    margin-left: 15px;
+    margin-left: 1em;
     text-decoration: line-through;
-    font-size: 12px;
+    font-size: .8rem;
     opacity: .8;
 }
 
 .cta-btn {
     cursor: pointer;
+    display: block flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    display: block;
+    padding: 1em 2em;
     margin-top: 12px;
     border: none;
     border-radius: 8px;
@@ -96,16 +103,10 @@ body {
     background-color: hsl(158, 36%, 25%);
 }
 
-.cta-btn p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .cta-icon {
-    width: 15px;
-    height: 15px;
-    margin-right: 7px;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem;
 }
 
 
@@ -119,7 +120,7 @@ body {
     .card {
         display: flex;
         flex-direction: row;
-        width: 550px;
+        width: 35rem;
         height: auto;
         margin: 0 auto;
         border-radius: 10px;
@@ -127,12 +128,13 @@ body {
         overflow: hidden;
     }
 
-    .card__img {
+    .card__img__container {
         width: 50%;
-        height: 400px;
-        background-image: url("images/image-product-desktop.jpg");
-        background-size: cover;
-        background-position: center;
+        height: auto;
+    }
+
+    .card__img {
+        height: 100%;
     }
 
     .card__content {
@@ -141,10 +143,10 @@ body {
         justify-content: space-between;
         width: 50%;
         height: auto;
-        padding: 30px;
+        padding: 1.75rem;
     }
 
     .item-name {
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
 }
