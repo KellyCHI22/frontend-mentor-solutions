@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* general styling */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20.5rem;
+    height: 23rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: hsl(213, 19%, 18%);
+    background-image: linear-gradient(180deg, hsl(213, 19%, 18%), hsl(216, 12%, 10%));
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 23%);
+    text-align: center;
+}
+
+.d-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* rating state styling */
+
+.icon-img {
+    width: 1rem;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.card__desc {
+    margin-top: 0;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5em;
+}
+
+.rating__label {
+    cursor: pointer;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating__label:hover {
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.rating__label--selected {
+    color: #fff;
+    background-color: hsl(216, 12%, 54%);
+}
+
+.card__button {
+    cursor: pointer;
+    display: block;
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 2em;
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.card__button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 90%);
+}
+
+/* thankyou state styling */
+
+.card-thankyou {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thankyou-img {
+    width: 150px;
+    margin: 1.5rem 0 .5rem 0;
+}
+
+.card__info {
+    padding: .5em 1em;
+    margin-bottom: 0;
+    border-radius: 1em;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 23%);
+}
+
+/* I don't know why but d-none has to be here or its not gonna work */
+.d-none {
+    display: none;
+}
+
+
+/* attribution styling */
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    opacity: .7;
+}
+
+.attribution:hover {
+    opacity: 1;
+}
+
+.attribution a {
+    color: hsl(25, 97%, 53%);
+    text-decoration: underline;
+}

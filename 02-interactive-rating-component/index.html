@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive rating component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+
+  <form class="card card-rating">
+    <div class="round">
+      <img class="icon-img" src="images/icon-star.svg" alt="icon star">
+    </div>
+    <h1 class="card__title">How did we do?</h1>
+    <p class="card__desc">Please let us know how we did with your support request. All feedback is appreciated
+      to help us improve our offering!</p>
+    <div class="d-row">
+      <input class="rating__input d-none" type="radio" id="1" name="rating" value="1">
+      <label class="rating__label round" for="1">1</label>
+      <input class="rating__input d-none" type="radio" id="2" name="rating" value="2">
+      <label class="rating__label round" for="2">2</label>
+      <input class="rating__input d-none" type="radio" id="3" name="rating" value="3">
+      <label class="rating__label round" for="3">3</label>
+      <input class="rating__input d-none" type="radio" id="4" name="rating" value="4">
+      <label class="rating__label round" for="4">4</label>
+      <input class="rating__input d-none" type="radio" id="5" name="rating" value="5">
+      <label class="rating__label round" for="5">5</label>
+    </div>
+    <button class="card__button" type="submit">Submit</button>
+
+  </form>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <section class="card card-thankyou d-none">
+    <img class="thankyou-img" src="images/illustration-thank-you.svg" alt="">
+    <p class="card__info">You selected
+      <!-- Add rating here -->
+      <span class="card__info__rating"></span>
+      out of 5
+    </p>
+    <h2 class="card__title">Thank you!</h2>
+    <p class="card__desc">We appreciate you taking the time to give a rating. If you ever need more support,
+      don’t hesitate to get in touch!</p>
+
+  </section>
+
+  <!-- Thank you state end -->
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Hsin-tingCHI" target="_blank">Kelly CHI</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
