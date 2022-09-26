@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/02-interactive-rating-component)
+- Live Site URL: [interactive-rating-component](https://kellychi22.github.io/frontend-mentor-solutions/02-interactive-rating-component/)
 
 ## My process
 
@@ -33,8 +33,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [My Github homepage](https://github.com/KellyCHI22)
+- Frontend Mentor - [@Hsin-tingCHI](https://www.frontendmentor.io/profile/Hsin-tingCHI)
 
 ## Acknowledgments
 
+Thank you Frontend Mentor for providing the challenge!
