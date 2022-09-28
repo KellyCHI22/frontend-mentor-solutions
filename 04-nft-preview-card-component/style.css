@@ -99,8 +99,14 @@ body {
     border-bottom: 1px solid rgba(139, 172, 218, .2);
 }
 
+.item__price,
+.item__time {
+    display: flex;
+    align-items: center;
+}
+
 .item__icon {
-    margin-right: .2em;
+    margin-right: .4em;
 }
 
 .price-eth {
