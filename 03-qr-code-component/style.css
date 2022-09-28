@@ -12,9 +12,9 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     color: hsl(220, 15%, 55%);
     background-color: hsl(212, 45%, 89%);
 }
@@ -22,16 +22,12 @@ body {
 /* seperate styling */
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    width: 21rem;
+    max-width: 21rem;
     padding: 1rem;
     border-radius: 1.2rem;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 5px 5px 20px rgba(0 0 0/.1);
+    box-shadow: .25rem .25rem 1.5rem rgba(0 0 0/.1);
     transition: transform 300ms ease;
 }
 
@@ -40,7 +36,7 @@ body {
 }
 
 .card__img {
-    width: 19rem;
+    max-width: 100%;
     border-radius: .9rem;
 }
 
@@ -54,6 +50,7 @@ body {
 }
 
 .card__desc {
+    padding: 0 .2em;
     font-size: 1rem;
 }
 
