@@ -40,7 +40,6 @@ img {
 
 .item__img__container {
     display: block;
-    cursor: pointer;
     position: relative;
     max-width: 100%;
     border-radius: .9rem;
