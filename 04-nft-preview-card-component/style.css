@@ -19,6 +19,11 @@ body {
     background-color: hsl(217, 54%, 11%);
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* seperate styling */
 
 .card {
@@ -34,18 +39,20 @@ body {
 }
 
 .item__img__container {
+    display: block;
     cursor: pointer;
     position: relative;
     max-width: 100%;
+    border-radius: .9rem;
+    overflow: hidden;
 }
 
 .item__img__container::before {
     position: absolute;
     content: "";
     width: 100%;
-    height: 99%;
+    height: 100%;
     inset: 0;
-    border-radius: .9rem;
     background-color: hsl(178, 100%, 50%);
     opacity: 0;
 }
@@ -65,20 +72,15 @@ body {
     opacity: 1;
 }
 
-.item__img {
-    max-width: 100%;
-    border-radius: .9rem;
-}
-
 .item__info {
     padding: 0 .4rem;
 }
 
 .item__title {
-    font-size: 1.4rem;
-    cursor: pointer;
     margin-bottom: 0;
     color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+    text-decoration: none;
 }
 
 .item__title:hover {
