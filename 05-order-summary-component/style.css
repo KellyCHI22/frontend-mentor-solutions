@@ -14,7 +14,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: .9rem;
+    font-size: 1rem;
     color: hsl(224, 23%, 55%);
     background-image: url("images/pattern-background-mobile.svg");
     background-size: cover;
@@ -37,12 +37,13 @@ p {
     border: none;
     border-radius: 1em;
     font-family: 'Red Hat Display', sans-serif;
+    font-size: .9rem;
 }
 
 /* separate styling */
 
 .card {
-    max-width: 20rem;
+    max-width: 23rem;
     border-radius: 1.2rem;
     overflow: hidden;
     box-shadow: 1em 1em 3em rgba(0 0 0/ .1);
@@ -72,7 +73,7 @@ p {
 }
 
 .card__desc {
-    margin: 1em 1.25em;
+    margin: 1em 1.5em 1.5em;
     line-height: 1.5em;
 }
 
@@ -80,7 +81,7 @@ p {
     display: flex;
     align-items: center;
     position: relative;
-    padding: .8em;
+    padding: 1em;
     margin-bottom: 1em;
     border-radius: 1em;
     background-color: hsl(225, 100%, 98%);
@@ -91,7 +92,7 @@ p {
 }
 
 .plan__detail {
-    margin-left: 1em;
+    margin-left: 1.25em;
     text-align: start;
 }
 
@@ -103,7 +104,7 @@ p {
 
 .plan__btn {
     position: absolute;
-    right: 1em;
+    right: 1.5em;
     color: hsl(245, 75%, 52%);
     background-color: transparent;
     font-weight: 700;
@@ -117,7 +118,7 @@ p {
 
 
 .pay__btn {
-    padding: 1em 2em;
+    padding: 1.5em 2em;
     box-shadow: 0 .5em 2em hsla(245, 75%, 52%, .4);
     color: #fff;
     background-color: hsl(245, 75%, 52%);
