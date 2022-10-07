@@ -18,6 +18,7 @@ body {
     color: hsl(224, 23%, 55%);
     background-image: url("images/pattern-background-mobile.svg");
     background-size: cover;
+    background-color: hsl(225, 100%, 96%);
 }
 
 img {
@@ -44,6 +45,7 @@ p {
     max-width: 20rem;
     border-radius: 1.2rem;
     overflow: hidden;
+    box-shadow: 1em 1em 3em rgba(0 0 0/ .1);
     background-color: #fff;
     transition: transform 300ms ease;
 }
