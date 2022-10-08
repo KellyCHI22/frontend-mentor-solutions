@@ -24,6 +24,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS Flexbox
 - Mobile-first workflow
+
 ## Author
 
 - Website - [My Github homepage](https://github.com/KellyCHI22)
