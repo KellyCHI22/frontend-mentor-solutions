@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Stats preview card component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <article class="card">
+      <picture class="card__img__container">
+        <source media="(min-width:900px)" srcset="images/image-header-desktop.jpg">
+        <source media="(min-width:0px)" srcset="images/image-header-mobile.jpg">
+        <img class="card__img" src="" alt="people-doing-business-meeting">
+      </picture>
+      <div class="card__content">
+        <h1 class="card__title">Get <span>insights </span>that help your business grow.</h1>
+        <p class="card__desc">Discover the benefits of data analytics and make better decisions regarding
+          revenue,
+          customer
+          experience, and overall efficiency.</p>
+        <div class="card__stats">
+          <div class="card__stat">
+            <p class="stats__number">10k+ </p>
+            <p class="stats__desc">companies</p>
+          </div>
+          <div class="card__stat">
+            <p class="stats__number">314 </p>
+            <p class="stats__desc">templates</p>
+          </div>
+          <div class="card__stat">
+            <p class="stats__number">12m+ </p>
+            <p class="stats__desc">queries</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Hsin-tingCHI">Kelly CHI</a>.
+  </footer>
+</body>
+
+</html>
