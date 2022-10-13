@@ -72,7 +72,7 @@ h2 {
     text-transform: uppercase;
 }
 
-.col {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -82,7 +82,6 @@ h2 {
 }
 
 .btn {
-    cursor: pointer;
     padding: 1em 2em;
     border: 2px solid var(--light-gray);
     border-radius: 2em;
@@ -90,6 +89,7 @@ h2 {
     background-color: var(--light-gray);
     font-family: var(--ff-regular);
     font-size: 1rem;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -99,7 +99,7 @@ h2 {
 
 /* separate styling */
 
-.card {
+.card__container {
     margin: 5rem 0 5rem 0;
     border-radius: .6rem;
     overflow: hidden;
@@ -107,39 +107,39 @@ h2 {
     transition: transform 300ms ease;
 }
 
-.card:hover {
+.card__container:hover {
     transform: scale(1.02);
 }
 
 
-.col-one {
+.card-sedan {
     --primary-color: var(--bright-orange);
 
     background-color: var(--primary-color);
 }
 
 
-.col-two {
+.card-suv {
     --primary-color: var(--dark-cyan);
 
     background-color: var(--primary-color);
 }
 
-.col-three {
+.card-luxury {
     --primary-color: var(--very-dark-cyan);
 
     background-color: var(--primary-color);
 }
 
-.col__title {
+.card__title {
     margin: .5em 0;
 }
 
-.col__desc {
+.card__desc {
     line-height: 1.8em;
 }
 
-.col__btn {
+.card__btn {
     margin: 2.5em 0 0;
 }
 
@@ -166,15 +166,15 @@ h2 {
 
     }
 
-    .card {
+    .card__container {
         display: flex;
     }
 
-    .col {
+    .card {
         max-width: 20rem;
     }
 
-    .col__btn {
+    .card__btn {
         margin: 5em 0 0;
     }
 }
