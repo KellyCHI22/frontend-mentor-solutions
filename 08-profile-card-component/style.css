@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* general styling */
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--Very-dark-blue);
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;
+    background-color: var(--Dark-cyan);
+}
+
+/* separate styling */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 21rem;
+    height: 25rem;
+    border-radius: .75rem;
+    box-shadow: 5px 5px 20px rgba(0 0 0 /.15);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 300ms ease;
+}
+
+.profile:hover {
+    transform: scale(1.03);
+}
+
+
+.profile__bg {
+    height: 40%;
+    background-image: url('images/bg-pattern-card.svg');
+}
+
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 60%;
+    padding-top: 3.5em;
+    background-color: white;
+}
+
+
+.profile__age {
+    margin-left: 1ch;
+    color: var(--Dark-gray);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.profile__location {
+    color: var(--Dark-gray);
+    margin-bottom: 2em;
+}
+
+.profile__stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    border-top: 1px solid rgba(0 0 0/ .2);
+}
+
+.stat__number {
+    color: var(--Very-dark-blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.stat__name {
+    margin-top: .25em;
+    color: var(--Dark-grayish-blue);
+    font-size: .7rem;
+    letter-spacing: .25ch;
+}
+
+.profile__img__container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+
+.profile__img {
+    width: 6rem;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+/* attribution styling */
+
+.attribution {
+    position: absolute;
+    top: 0;
+    opacity: .9;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: underline;
+}
+
+.attribution a:hover {
+    color: rgba(255 255 255/.5);
+}
