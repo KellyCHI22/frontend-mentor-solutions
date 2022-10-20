@@ -4,15 +4,15 @@ questions.forEach(question => {
     question.addEventListener("click", function () {
         let answer = question.nextElementSibling;
         if (answer.style.display === "block") {
-            hideAnswer(question)
+            hideAnswer(question);
         } else {
             questions.forEach(question => {
-                hideAnswer(question)
-            })
-            displayAnswer(question)
+                hideAnswer(question);
+            });
+            displayAnswer(question);
         }
-    })
-})
+    });
+});
 
 function displayAnswer(target) {
     let answer = target.nextElementSibling;
