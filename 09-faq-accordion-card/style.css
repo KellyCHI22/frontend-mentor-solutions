@@ -77,6 +77,11 @@ body {
     color: var(--Very-dark-grayish-blue);
     background-color: white;
     box-shadow: 5px 5px 30px rgba(0 0 0/ .3);
+    transition: transform 200ms ease-in;
+}
+
+.faq-card:hover {
+    transform: scale(1.015);
 }
 
 .faq__content {
