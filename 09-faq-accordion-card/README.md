@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/09-faq-accordion-card)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/09-faq-accordion-card/)
 
 ### Built with
 
@@ -56,6 +56,22 @@ body:focus .img-box {
         transform: translateY(-20%);
     }
 }
+```
+* Iterate over and hide other answers before displaying the clicked answer
+```javascript
+questions.forEach(question => {
+    question.addEventListener("click", function () {
+        let answer = question.nextElementSibling;
+        if (answer.style.display === "block") {
+            hideAnswer(question)
+        } else {
+            questions.forEach(question => {
+                hideAnswer(question)
+            })
+            displayAnswer(question)
+        }
+    })
+})
 ```
 
 ## Author
