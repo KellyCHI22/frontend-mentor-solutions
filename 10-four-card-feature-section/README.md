@@ -13,8 +13,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/10-four-card-feature-section)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/10-four-card-feature-section/)
 
 ### Built with
 

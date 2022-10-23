@@ -12,6 +12,7 @@ Here you can find all the [Frontend Mentor](https://www.frontendmentor.io/) chal
 | 07  | Stats preview card             | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/07-stats-preview-card)             | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/07-stats-preview-card/)              |
 | 08  | Profile card component         | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/08-profile-card-component)         | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/08-profile-card-component/)          |
 | 09  | FAQ accordion card             | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/09-faq-accordion-card)             | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/09-faq-accordion-card/)              |
+| 10  | Four card feature section      | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/10-four-card-feature-section)      | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/10-four-card-feature-section/)       |
 
 -----------------------------
 
