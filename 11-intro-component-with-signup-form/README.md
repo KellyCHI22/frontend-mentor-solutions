@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/11-intro-component-with-signup-form)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/11-intro-component-with-signup-form/)
 
 ### Built with
 
