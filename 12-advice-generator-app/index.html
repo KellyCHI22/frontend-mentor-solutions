@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <section class="card">
+      <div class="advice__id-container">
+        Advice #
+        <span class="advice__id">
+          <!-- Advice ID goes here -->
+        </span>
+      </div>
+
+      <div class="advice__content-container">
+        <span class="advice__content">
+          <!-- Advice text goes here -->
+        </span>
+      </div>
+      <picture class="divider-pattern__container">
+        <source media="(min-width:900px)" srcset="images/pattern-divider-desktop.svg">
+        <source media="(min-width:0px)" srcset="images/pattern-divider-mobile.svg">
+        <img class="divider-pattern" src="" alt="">
+      </picture>
+      <div class="advice__btn"><img class="dice-icon" src="images/icon-dice.svg" /></div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kelly CHI</a>.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

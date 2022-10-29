@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+/* CSS reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* general styling */
+
+:root {
+    /* Primary */
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    /* Neutral */
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.75rem;
+    color: var(--Light-Cyan);
+    background-color: var(--Dark-Blue);
+}
+
+/* separate styling */
+
+.card {
+    max-width: 350px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0 0 0/.1);
+    background-color: var(--Dark-Grayish-Blue);
+    text-align: center;
+    position: relative;
+    transition: transform 200ms ease-in;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.advice__id-container {
+    margin: 1em 0 2em;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .4ch;
+    color: var(--Neon-Green);
+}
+
+.advice__content-container {
+    margin-bottom: 1.25em;
+}
+
+.divider-pattern__container {
+    margin-bottom: 1.5em;
+}
+
+.advice__btn {
+    cursor: pointer;
+    position: absolute;
+    bottom: -1.75rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+}
+
+.advice__btn:hover {
+    box-shadow: 0 0 20px var(--Neon-Green);
+}
+
+/* attribution styling */
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: 1rem;
+    color: var(--Grayish-Blue);
+    opacity: .7;
+}
+
+.attribution a {
+    color: var(--Light-Cyan);
+    text-decoration: underline;
+}
+
+.attribution a:hover {
+    color: var(--Neon-Green);
+}
+
+@media (min-width: 900px) {
+
+    .card {
+        max-width: 500px;
+        min-width: 450px;
+    }
+
+}
