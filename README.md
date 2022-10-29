@@ -14,6 +14,7 @@ Here you can find all the [Frontend Mentor](https://www.frontendmentor.io/) chal
 | 09  | FAQ accordion card                | Newbie     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/09-faq-accordion-card)               | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/09-faq-accordion-card/)               |
 | 10  | Four card feature section         | Newbie     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/10-four-card-feature-section)        | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/10-four-card-feature-section/)        |
 | 11  | Intro component with sign up form | Newbie     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/11-intro-component-with-signup-form) | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/11-intro-component-with-signup-form/) |
+| 12  | Advice generator app              | Junior     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/12-advice-generator-app)             | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/12-advice-generator-app/)             |
 
 -----------------------------
 

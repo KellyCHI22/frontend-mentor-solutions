@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/12-advice-generator-app)
+- Live Site URL: [Solution Demo](https://kellychi22.github.io/frontend-mentor-solutions/12-advice-generator-app/)
 
 ## My process
 
@@ -37,7 +37,7 @@ Users should be able to:
 
 ### What I learned
 
-Another fun practice with Axios.
+Another fun practice with Api and Axios.
 ```js
 function callAdvice() {
     let id = Math.floor(Math.random() * 225);
