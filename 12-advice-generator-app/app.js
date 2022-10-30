@@ -3,6 +3,7 @@ const adviceId = document.querySelector(".advice__id");
 const advice = document.querySelector(".advice__content");
 
 button.addEventListener("click", callAdvice);
+callAdvice();
 
 function callAdvice() {
     let id = Math.floor(Math.random() * 225);
