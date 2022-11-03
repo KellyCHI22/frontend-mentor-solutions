@@ -13,15 +13,15 @@ Users should be able to:
 
 ### Screenshot
 #### Mobile version
-<img src="/screenshot_1.jpg"/>
+![](screenshot_1.jpg)
 
 #### Desktop version
-<img src="/screenshot_2.jpg"/>
+![](screenshot_2.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/13-single-price-grid-component)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/13-single-price-grid-component/)
 
 ## My process
 
