@@ -32,7 +32,7 @@ Users should be able to:
 - CSS Flexbox
 - CSS Grid
 - Mobile-first workflow
-- 
+
 ### What I learned
 First Frontend Mentor challenge that involves CSS Grid.
 
