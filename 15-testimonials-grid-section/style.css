@@ -121,7 +121,7 @@ body {
 
 .user__info {
     margin-left: .85rem;
-    color: var(--Light-gray);
+    color: var(--Light-grayish-blue);
 }
 
 .user__title {
@@ -130,7 +130,7 @@ body {
 
 .testimony__content {
     margin-top: 1rem;
-    color: var(--Light-gray);
+    color: var(--Light-grayish-blue);
 }
 
 .content__detail {
