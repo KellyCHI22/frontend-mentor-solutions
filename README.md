@@ -17,6 +17,7 @@ Here you can find all the [Frontend Mentor](https://www.frontendmentor.io/) chal
 | 12  | Advice generator app              | Junior     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/12-advice-generator-app)             | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/12-advice-generator-app/)             |
 | 13  | Single price grid component       | Newbie     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/13-single-price-grid-component)      | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/13-single-price-grid-component/)      |
 | 14  | News homepage                     | Junior     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/14-news-homepage)                    | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/14-news-homepage/)                    |
+| 15  | Testimonials grid section         | Junior     | [REPO](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/15-testimonials-grid-section)        | [DEMO](https://kellychi22.github.io/frontend-mentor-solutions/15-testimonials-grid-section/)        |
 
 -----------------------------
 

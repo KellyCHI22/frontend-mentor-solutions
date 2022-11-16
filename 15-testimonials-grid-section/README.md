@@ -13,18 +13,18 @@ Users should be able to:
 ### Screenshots
 
 #### Mobile version
-![](/screenshots/screenshot_1.jpg)
+![](./screenshots/screenshot_1.jpg)
 
 #### Tablet version
-![](/screenshots/screenshot_2.jpg)
+![](./screenshots/screenshot_2.jpg)
 
 #### Desktop version
-![](/screenshots/screenshot_3.jpg)
+![](./screenshots/screenshot_3.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/15-testimonials-grid-section)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/15-testimonials-grid-section/)
 
 ## My process
 
