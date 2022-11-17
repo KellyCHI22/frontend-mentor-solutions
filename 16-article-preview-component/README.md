@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/16-article-preview-component)
-- Live Site URL: [Solution demo](hhttps://kellychi22.github.io/frontend-mentor-solutions/16-article-preview-component/)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/16-article-preview-component/)
 
 ## My process
 
