@@ -21,8 +21,8 @@ Users should be able to:
 ![](./screenshot_3.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/KellyCHI22/frontend-mentor-solutions/tree/main/17-time-tracking-dashboard)
+- Live Site URL: [Solution demo](https://kellychi22.github.io/frontend-mentor-solutions/17-time-tracking-dashboard/)
 
 ## My process
 
