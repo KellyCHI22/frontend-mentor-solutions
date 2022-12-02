@@ -87,11 +87,11 @@ function generateTimeDashboard(data, timeFrame) {
 
     return `
     <div class="dashboard-item ${data.title.toLowerCase()}">
-        <img src="images/icon-${data.title}.svg" aria-hidden="true" alt="" class="bg-icon">
+        <img src="./images/icon-${data.title.toLowerCase()}.svg" aria-hidden="true" alt="" class="bg-icon">
         <div class="dashboard-item__content">
             <div class="d-flex">
                 <h3 class="dashboard-item__title">${data.title}</h3>
-                <a href="#" class="item__link"><img src="images/icon-ellipsis.svg" alt=""></a>
+                <a href="#" class="item__link"><img src="./images/icon-ellipsis.svg" alt=""></a>
             </div>
             <div class="d-flex item__time">
                 <h2 class="dashboard-item__time">${range.current}hrs</h2>
